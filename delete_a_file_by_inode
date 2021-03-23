@@ -1,0 +1,5 @@
+## list files by inode:
+$ ls -i
+
+## delete file by inode:
+find . -inum <INODE_NUMBER> -exec rm -i {} \;
